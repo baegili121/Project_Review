@@ -10,7 +10,16 @@ GitHub Pages 배포 후 아래 주소로 접속할 수 있습니다.
 https://baegili121.github.io/Project_Review/
 ```
 
-GitHub Pages가 아직 활성화되어 있지 않다면 저장소의 **Settings → Pages → Source**를 **GitHub Actions**로 설정해 주세요.
+GitHub Pages가 아직 활성화되어 있지 않다면 저장소의 **Settings → Pages → Build and deployment → Source**를 **GitHub Actions**로 설정해 주세요.
+
+## GitHub 웹 업로드 방법
+
+1. 이 ZIP 파일을 압축 해제합니다.
+2. `baegili121/Project_Review` 저장소로 이동합니다.
+3. **Add file → Upload files**를 누릅니다.
+4. 압축 해제한 폴더 안의 모든 파일과 폴더를 드래그해서 업로드합니다.
+5. 커밋 메시지를 입력하고 **Commit changes**를 누릅니다.
+6. **Actions** 탭에서 `Deploy to GitHub Pages` 워크플로가 성공하는지 확인합니다.
 
 ## 로컬 실행 방법
 
@@ -21,7 +30,7 @@ npm run dev
 
 브라우저에서 표시되는 주소로 접속한 뒤, 우측 상단의 🔑 버튼을 눌러 Gemini API 키를 입력하세요.
 
-## 배포 방법
+## 배포 방식
 
 `main` 브랜치에 푸시하면 `.github/workflows/deploy.yml` 워크플로가 자동으로 실행됩니다.
 
